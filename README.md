@@ -3,6 +3,10 @@
 É um projeto simples de estudo para IOS + Swift. <br> 
 O projeto contém 3 telas (Home, Detalhe e WebSite)
 
+<br> 
+<img src="https://github.com/rudsonlive/companies-ios/blob/master/Image/image_companies.png">
+<br> 
+
 # Sobre as telas
 
 Home: Lista de empresas (Logo + nome da empresa)
