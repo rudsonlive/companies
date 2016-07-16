@@ -1,6 +1,6 @@
 # Companies
 
-É Um projeto simples de estudo para IOS + Swift. 
+É um projeto simples de estudo para IOS + Swift. <br> 
 O projeto contém 3 telas (Home, Detalhe e WebSite)
 
 # Sobre as telas
