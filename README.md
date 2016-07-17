@@ -1,27 +1,27 @@
 # Companies
 
-É um projeto simples de estudo para IOS + Swift. <br> 
-O projeto contém 3 telas (Home, Detalhe e WebSite)
+It is a simple design study for IOS + Swift.<br>
+The project contains three screens (Home, Detail and WebSite)
 
 <img src="https://github.com/rudsonlive/companies-ios/blob/master/Image/image_companies.png">
 
-# Sobre as telas
+# On the screens
 
-Home: Lista de empresas (Logo + nome da empresa)
-  - Uma lista simples onde mostro a logo e o nome da empresa.
-  - Foi utilizando um UITableView e uma Custom UITableViewCell (UIImageView + UILabel) para fazer o item.
-  - Ao clicar no item um objeto do tipo "Company" é enviando para a tela de Detalhe.
+Main: List of Companies (Logo + company name)
+  - A simple list which show the logo and company name.
+  - Was using a UITableView and UITableViewCell Custom (UIImageView + UILabel) to make the item.
+  - By clicking on the item an object of type "Company" is sending to the Detail screen.
 
-Detalhe: Logo e uma descrição sobre a empresa
-  - Exibo a logo e uma breve descrição sobre a empresa
-  - Foi utilizado um UIImageView, UITextView e UILabel
-  - Ao Clicar no NavigationItem "Site" é enviado um objeto do tipo "Company" para a tela de WebSite
+Detail: Logo and a description of the company
+  - View the logo and a brief description of the company
+  - An UIImageView, UILabel and UITextView was used
+  - When Clicking the NavigationItem "Site" is sent an object of type "Company" for WebSite screen
 
-WebSite: Site da empresa
-  - Aqui eu carrego o site da empresa
-  - Foi uilizado um UIWebView e UIActivityIndicatorView.
+WebSite: Company Website
+  - Here I carry the company's website
+  - It was uilizado a UIWebView and UIActivityIndicatorView.
 
-# Foi utilizado para o desenvolvimento
+# It was used to develop
   - XCode Version 7.3.1 (7D1014)
   - Apple Swift version 2.2
 
