@@ -35,20 +35,20 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Google" translatesAutoresizingMaskIntoConstraints="NO" id="k1x-id-wA2">
-                                                    <rect key="frame" x="8" y="8" width="38" height="34"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Google" translatesAutoresizingMaskIntoConstraints="NO" id="k1x-id-wA2">
+                                                    <rect key="frame" x="8" y="6" width="38" height="38"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="38" id="8Q3-HV-9Lr"/>
+                                                        <constraint firstAttribute="height" constant="38" id="gR1-gs-9RM"/>
+                                                        <constraint firstAttribute="width" constant="38" id="zVv-o1-Hr5"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="dfh-Vo-DVH" firstAttribute="trailing" secondItem="Lj9-3S-Qkh" secondAttribute="trailingMargin" id="4K7-1J-chb"/>
-                                                <constraint firstItem="k1x-id-wA2" firstAttribute="leading" secondItem="Lj9-3S-Qkh" secondAttribute="leadingMargin" id="ZjE-ma-hF4"/>
-                                                <constraint firstItem="dfh-Vo-DVH" firstAttribute="leading" secondItem="k1x-id-wA2" secondAttribute="trailing" constant="8" symbolic="YES" id="d4g-D9-f41"/>
-                                                <constraint firstItem="k1x-id-wA2" firstAttribute="centerY" secondItem="Lj9-3S-Qkh" secondAttribute="centerY" id="dEX-e0-06Q"/>
-                                                <constraint firstItem="k1x-id-wA2" firstAttribute="centerY" secondItem="dfh-Vo-DVH" secondAttribute="centerY" id="fPz-xe-zTt"/>
-                                                <constraint firstItem="k1x-id-wA2" firstAttribute="bottom" secondItem="Lj9-3S-Qkh" secondAttribute="bottomMargin" id="o8P-vV-AbQ"/>
+                                                <constraint firstItem="k1x-id-wA2" firstAttribute="leading" secondItem="Lj9-3S-Qkh" secondAttribute="leadingMargin" id="ITc-F1-xYS"/>
+                                                <constraint firstItem="dfh-Vo-DVH" firstAttribute="centerY" secondItem="Lj9-3S-Qkh" secondAttribute="centerY" id="JHu-kX-FHd"/>
+                                                <constraint firstItem="dfh-Vo-DVH" firstAttribute="trailing" secondItem="Lj9-3S-Qkh" secondAttribute="trailingMargin" id="iqb-Yv-fgg"/>
+                                                <constraint firstItem="dfh-Vo-DVH" firstAttribute="leading" secondItem="k1x-id-wA2" secondAttribute="trailing" constant="8" id="l0d-Ip-MtE"/>
+                                                <constraint firstItem="k1x-id-wA2" firstAttribute="centerY" secondItem="Lj9-3S-Qkh" secondAttribute="centerY" id="wOo-m1-nIz"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -102,10 +102,10 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="center" image="Google" translatesAutoresizingMaskIntoConstraints="NO" id="ZUi-ol-lYO">
-                                <rect key="frame" x="141" y="72" width="38" height="34"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Google" translatesAutoresizingMaskIntoConstraints="NO" id="ZUi-ol-lYO">
+                                <rect key="frame" x="141" y="72" width="38" height="38"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="1j3-xf-Msa"/>
+                                    <constraint firstAttribute="height" constant="38" id="1j3-xf-Msa"/>
                                     <constraint firstAttribute="width" constant="38" id="mFs-De-pzD"/>
                                 </constraints>
                             </imageView>
@@ -120,7 +120,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="rF1-b9-cQa" firstAttribute="leading" secondItem="fOx-Fc-eEv" secondAttribute="leadingMargin" constant="4" id="3u4-hF-5mJ"/>
-                            <constraint firstItem="rF1-b9-cQa" firstAttribute="top" secondItem="ZUi-ol-lYO" secondAttribute="bottom" constant="8" symbolic="YES" id="8zK-pS-7W9"/>
+                            <constraint firstItem="rF1-b9-cQa" firstAttribute="top" secondItem="ZUi-ol-lYO" secondAttribute="bottom" constant="4" id="8zK-pS-7W9"/>
                             <constraint firstItem="RYa-1J-CRa" firstAttribute="top" secondItem="rF1-b9-cQa" secondAttribute="bottom" constant="8" id="D9f-YS-yOU"/>
                             <constraint firstItem="RYa-1J-CRa" firstAttribute="leading" secondItem="fOx-Fc-eEv" secondAttribute="leadingMargin" id="FfA-xd-bX6"/>
                             <constraint firstItem="RYa-1J-CRa" firstAttribute="trailing" secondItem="fOx-Fc-eEv" secondAttribute="trailingMargin" id="PuO-Nj-7NN"/>
@@ -206,6 +206,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Google" width="32" height="32"/>
+        <image name="Google" width="85" height="85"/>
     </resources>
 </document>
